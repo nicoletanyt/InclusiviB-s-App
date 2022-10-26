@@ -12,8 +12,7 @@ struct Homepage: View {
     var body: some View {
         NavigationView {
             ZStack {
-                List {
-                    ForEach(availableApps) { app in
+                List {                    ForEach(availableApps) { app in
                         NavigationLink {
                             DetailedTutorials(app: app)
                         } label: {
@@ -26,6 +25,7 @@ struct Homepage: View {
                                     .bold()
                                     .foregroundColor(Color.yellow)
                                     .font(.system(size: 30))
+                                
                             }
                         }
                     }
