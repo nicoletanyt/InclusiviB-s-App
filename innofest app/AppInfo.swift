@@ -14,6 +14,7 @@ struct AppInfo: Identifiable {
     var imageURL: String
     var tutorialVideos: [videoInfo]
 }
+//lohith
 
 struct videoInfo: Identifiable {
     var id = UUID()
