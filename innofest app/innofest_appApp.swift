@@ -11,7 +11,8 @@ import SwiftUI
 struct innofest_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Homepage()
+                .environment(\.colorScheme, .dark)
         }
     }
 }
