@@ -23,7 +23,6 @@
 		93B8B35B2908CE330088173A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2129FEF2908EA89009057CC /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		A2129FF22908F5B3009057CC /* DetailedTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedTutorials.swift; sourceTree = "<group>"; };
-		C51F5A192908FF900039DE24 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +39,6 @@
 		93B8B3482908CE300088173A = {
 			isa = PBXGroup;
 			children = (
-				C51F5A192908FF900039DE24 /* info.plist */,
 				93B8B3532908CE300088173A /* innofest app */,
 				93B8B3522908CE300088173A /* Products */,
 			);
@@ -279,8 +277,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"innofest app/Preview Content\"";
 				DEVELOPMENT_TEAM = 29Y7C6427U;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "/Users/lohithishanbalasubramaniyanstu/Documents/InclusiviB-s-App/info.plist";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,8 +306,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"innofest app/Preview Content\"";
 				DEVELOPMENT_TEAM = 29Y7C6427U;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "/Users/lohithishanbalasubramaniyanstu/Documents/InclusiviB-s-App/info.plist";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

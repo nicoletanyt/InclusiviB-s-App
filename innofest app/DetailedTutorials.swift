@@ -14,15 +14,17 @@ struct DetailedTutorials: View {
         List() {
             ForEach(app.tutorialVideos) { video in
                 Link(destination: URL(string: video.link)!, label: {
+                    
                     HStack {
-                        Image(systemName: video.icon)
-                            .font(.system(size: 20))
-                            .foregroundColor(Color.yellow)
-                        Text(video.description)
-                            .font(.system(size: 30))
-                            .padding()
-                            .foregroundColor(Color.yellow)
-                    }
+                                  Image(systemName: video.icon)
+                                      .font(.system(size: 20))
+                                      .foregroundColor(Color.yellow)
+                                  Text(video.description)
+                                      .font(.system(size: 30))
+                                      .padding()
+                                      .foregroundColor(Color.yellow)
+                              }
+                    
                 })
             }
         }
