@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93B474502908F5E1005204F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4744E2908F5E1005204F1 /* ContentView.swift */; };
-		93B474512908F5E1005204F1 /* innofest_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4744F2908F5E1005204F1 /* innofest_appApp.swift */; };
+		93B8B3552908CE300088173A /* innofest_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B8B3542908CE300088173A /* innofest_appApp.swift */; };
+		93B8B3572908CE300088173A /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B8B3562908CE300088173A /* Homepage.swift */; };
 		93B8B3592908CE330088173A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B8B3582908CE330088173A /* Assets.xcassets */; };
 		93B8B35C2908CE330088173A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B8B35B2908CE330088173A /* Preview Assets.xcassets */; };
+		A2129FF02908EA8A009057CC /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2129FEF2908EA89009057CC /* AppInfo.swift */; };
+		A2129FF32908F5B3009057CC /* DetailedTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2129FF22908F5B3009057CC /* DetailedTutorials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93B4744D2908F5E1005204F1 /* innofest app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "innofest app-Bridging-Header.h"; sourceTree = "<group>"; };
-		93B4744E2908F5E1005204F1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		93B4744F2908F5E1005204F1 /* innofest_appApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = innofest_appApp.swift; sourceTree = "<group>"; };
 		93B8B3512908CE300088173A /* innofest app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "innofest app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B8B3542908CE300088173A /* innofest_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = innofest_appApp.swift; sourceTree = "<group>"; };
+		93B8B3562908CE300088173A /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
 		93B8B3582908CE330088173A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B8B35B2908CE330088173A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2129FEF2908EA89009057CC /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		A2129FF22908F5B3009057CC /* DetailedTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedTutorials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +55,12 @@
 		93B8B3532908CE300088173A /* innofest app */ = {
 			isa = PBXGroup;
 			children = (
-				93B4744E2908F5E1005204F1 /* ContentView.swift */,
-				93B4744F2908F5E1005204F1 /* innofest_appApp.swift */,
+				93B8B3542908CE300088173A /* innofest_appApp.swift */,
+				93B8B3562908CE300088173A /* Homepage.swift */,
+				A2129FF22908F5B3009057CC /* DetailedTutorials.swift */,
+				A2129FEF2908EA89009057CC /* AppInfo.swift */,
 				93B8B3582908CE330088173A /* Assets.xcassets */,
 				93B8B35A2908CE330088173A /* Preview Content */,
-				93B4744D2908F5E1005204F1 /* innofest app-Bridging-Header.h */,
 			);
 			path = "innofest app";
 			sourceTree = "<group>";
@@ -101,7 +105,6 @@
 				TargetAttributes = {
 					93B8B3502908CE300088173A = {
 						CreatedOnToolsVersion = 13.4.1;
-						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -140,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B474502908F5E1005204F1 /* ContentView.swift in Sources */,
-				93B474512908F5E1005204F1 /* innofest_appApp.swift in Sources */,
+				93B8B3572908CE300088173A /* Homepage.swift in Sources */,
+				A2129FF32908F5B3009057CC /* DetailedTutorials.swift in Sources */,
+				A2129FF02908EA8A009057CC /* AppInfo.swift in Sources */,
+				93B8B3552908CE300088173A /* innofest_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +272,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"innofest app/Preview Content\"";
@@ -287,8 +291,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryan.innofest-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "innofest app/innofest app-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +301,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"innofest app/Preview Content\"";
@@ -319,7 +320,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryan.innofest-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "innofest app/innofest app-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
