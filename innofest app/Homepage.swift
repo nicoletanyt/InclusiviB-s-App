@@ -12,7 +12,7 @@ struct Homepage: View {
     var body: some View {
         NavigationView {
             ZStack {
-                List () {
+                List {
                     ForEach(availableApps) { app in
                         NavigationLink {
                             DetailedTutorials(app: app)
@@ -21,9 +21,11 @@ struct Homepage: View {
                                 Image(app.imageURL)
                                     .resizable()
                                     .frame(width: 100, height: 100, alignment: .center)
+                                    .padding()
                                 Text(app.name)
-                                    .font(.system(size: 30))
                                     .bold()
+                                    .foregroundColor(Color.yellow)
+                                    .font(.system(size: 30))
                             }
                         }
                     }
