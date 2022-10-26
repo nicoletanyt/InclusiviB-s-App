@@ -20,13 +20,16 @@ struct videoInfo: Identifiable {
     var id = UUID()
     var link: String
     var description: String
+    var icon: String
 }
 
 var availableApps = [
     AppInfo(name: "Whatsapp", URLScheme: "whatsapp://", imageURL: "WHATSAPP", tutorialVideos:
-                [videoInfo(link: "https://docs.google.com/spreadsheets/d/1PlDHi4hCk2SqqW0wRfyNhTNnOf5R7bj699TFkW-NSBo/edit#gid=1272110813", description: "Texting"), videoInfo(link: "https://docs.google.com/spreadsheets/d/1PlDHi4hCk2SqqW0wRfyNhTNnOf5R7bj699TFkW-NSBo/edit#gid=1272110813", description: "Adding chat")]
+                [videoInfo(link: "https://docs.google.com/spreadsheets/d/1PlDHi4hCk2SqqW0wRfyNhTNnOf5R7bj699TFkW-NSBo/edit#gid=1272110813", description: "Sending Messages", icon: "bubble.left.and.bubble.right.fill"),
+                 videoInfo(link: "https://docs.google.com/spreadsheets/d/1PlDHi4hCk2SqqW0wRfyNhTNnOf5R7bj699TFkW-NSBo/edit#gid=1272110813", description: "New Chat", icon: ""),
+                ]
            ),
     AppInfo(name: "Instagram", URLScheme: "whatsapp://", imageURL: "WHATSAPP", tutorialVideos:
-                [videoInfo(link: "https://docs.google.com/spreadsheets/d/1PlDHi4hCk2SqqW0wRfyNhTNnOf5R7bj699TFkW-NSBo/edit#gid=1272110813", description: "Texting in Insta"),
-                 videoInfo(link: "https://docs.google.com/spreadsheets/d/1PlDHi4hCk2SqqW0wRfyNhTNnOf5R7bj699TFkW-NSBo/edit#gid=1272110813", description: "jillme")]
+                [videoInfo(link: "https://docs.google.com/spreadsheets/d/1PlDHi4hCk2SqqW0wRfyNhTNnOf5R7bj699TFkW-NSBo/edit#gid=1272110813", description: "Texting in Insta", icon: ""),
+                 videoInfo(link: "https://docs.google.com/spreadsheets/d/1PlDHi4hCk2SqqW0wRfyNhTNnOf5R7bj699TFkW-NSBo/edit#gid=1272110813", description: "jillme", icon: "")]
            )]
