@@ -40,7 +40,8 @@ struct Homepage: View {
                         if success {
                             print("All set!")
                             let content = UNMutableNotificationContent()
-                            content.title = "Need a tutorial for whatsapp?"
+                            content.title = "WonderPollen"
+                            content.subtitle = "Need a tutorial for whatsapp?"
 
                             content.sound = UNNotificationSound.default
                             
